@@ -14,8 +14,8 @@ function graduates (students) {
         for (j = 0; j < students.length; j++) {
             if (key2 === students[j].class && students[j].score > 75) {
                 graduation[key2].push({
-                    'name': students[j].name,
-                    'score': students[j].score,
+                    name: students[j].name,
+                    score: students[j].score,
                 });
             }
         }
